@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background:linear-gradient(to right,rgb(105, 105, 231),green);
+}
+ .navbar{
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+} 
+/* .navbar ul{
+    display: flex;
+    align-items:center ;
+    margin-bottom: 20px; */
+
+
+ .logo{
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+    color: yellow;
+    font-size: 50px;
+    font-weight: bold;
+    
+
+}
+
+.navbar ul li{
+    justify-content:center;
+    margin: 20px;
+    list-style: none;
+}
+.navbar ul li a{
+    padding: 5px;
+    padding-bottom: 5px;
+    color: white;
+    padding: auto;
+    font-weight: bold;
+}
+ .navbar ul li a:hover{
+    color:black;
+    background: white;
+    text-decoration: none;
+
+
+}
+#home{ 
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(Image/home.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.text{
+    margin-top: 160px;
+    margin-left: 100px;
+    padding-left: 30px;
+    
+    color: white;
+
+}
+.text h1{
+    font-weight: bold;
+    font-size: 70px;
+
+}
+.text h2{
+    font-weight: bold;
+    font-size: 40px;
+
+
+}
+button{
+
+    margin-left: 100px;
+    margin-top: 60px;
+    
+
+   
+    background: transparent;
+    
+    
+      }
+    .btn1 a{ color: white;
+        padding: 7px;
+        border: 2px solid white;
+        border-radius: 15px;
+    text-decoration: none;
+     font-weight: bold;
+    }
+    .btn2 a{ color: white;
+        padding: 7px;
+        border: 2px solid white;
+        border-radius: 15px;
+    text-decoration: none;
+     font-weight: bold;
+    }
+    .btn1 a:hover{
+        color:blue;
+        background-color: white;
+    }
+    .btn2 a:hover{
+        color:blue;
+        background-color: white;
+    }
+    .about{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about h1{
+        color: blue;
+        text-shadow: 3px 3px 12px red;
+        margin: 25px 0px;
+        font-weight: bold;
+    
+    }
+    .container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .container h1{
+        color: blue;
+        text-shadow: 3px 3px 12px red;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+    .card-btn{
+        color: white;
+        background-color: blue;
+        
+    
+        margin-right: 30px;
+
+    }
+
+
+    .price{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .price h1{
+        color: blue;
+        text-shadow: 3px 3px 12px red;
+    
+    }
+    .card-price{
+        background-color:rgb(226, 136, 136);
+    }
+    .btn-price{
+        margin-right: 100px;
+        margin-bottom: 80px;
+        background-color: blue;
+        color: white;
+    }
+    .contact{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contact h1{
+        color: blue;
+        text-shadow: 3px 3px 12px red;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .btn-primary{
+        padding:20px 100px;
+        margin-right: 80px;
+        margin-bottom: 150px;
+        margin-left: 60px;
+    }
+    .footer{
+        margin-top: -100px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
